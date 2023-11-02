@@ -6,6 +6,19 @@
     <script src="./index.js"></script>
   </head>
   <body>
+    <audio id="audio-ok">
+      <source src="./audio/ok.ogg" type="audio/ogg">
+      <source src="./audio/ok.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <audio id="audio-ko">
+      <source src="./audio/ko.ogg" type="audio/ogg">
+      <source src="./audio/ko.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <img id="image-ok" src="./images/ok.gif">
+    <img id="image-ko"src="./images/ko.gif">
+
       <div class="columna">
         <div class="numero">
           <input name="anterior" type="number" min="0" max="9" step="1" value="5" onchange="javascript:comprobar()">

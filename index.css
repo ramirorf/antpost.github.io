@@ -4,11 +4,24 @@ body {
     margin-top: 2em;
 }
 body.mal {
-    background-color:red;
+    background-color:rgb(251, 153, 153);
 }
 
 body.bien {
     background-color:green;
+}
+
+input {
+    background-color: rgb(241, 198, 241);
+}
+
+img {
+   position: absolute; 
+   visibility: hidden;
+}
+
+img.visible {
+    visibility: visible;
 }
 
 .columna {
@@ -46,6 +59,7 @@ body.bien {
     vertical-align: middle;
 
     font-size: x-large;
+    font-weight: bolder;
 }
 
 input {
