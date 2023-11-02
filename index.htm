@@ -2,7 +2,27 @@
 <HTML>
   <head>
     <title>Anterior y Posterior</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="./index.js"></script>
   </head>
   <body>
+      <div class="columna">
+        <div class="numero">
+          <input name="anterior" type="number" min="0" max="9" step="1" value="5" onchange="javascript:comprobar()">
+        </div>
+        <div class="etiqueta">ANTERIOR</div>
+      </div>
+      <div class="columna">
+        <div class="numero">
+          <input name="numero" type="number" min="0" max="9" step="1" value="5" onchange="javascript:comprobar()">
+        </div> 
+        <div class="etiqueta">NÚMERO</div>
+      </div>
+      <div class="columna">
+        <div class="numero">
+          <input name="posterior" type="number" min="0" max="9" step="1" value="5" onchange="javascript:comprobar()">
+        </div> 
+        <div class="etiqueta">POSTERIOR</sdiv>
+      </div>
   </body>  
 </HTML>
