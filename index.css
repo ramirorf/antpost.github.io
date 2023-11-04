@@ -3,6 +3,7 @@ body {
     background-color:beige;
     margin-top: 2em;
 }
+
 body.mal {
     background-color:rgb(251, 153, 153);
 }
@@ -11,8 +12,10 @@ body.bien {
     background-color:green;
 }
 
-input {
+input[type=number] {
     background-color: rgb(241, 198, 241);
+    font-size: 100px;
+    width: 70px;
 }
 
 img {
@@ -31,8 +34,7 @@ img.visible {
     float: left;
 }
 
-.columna .numero {
-    
+.columna .numero {    
     border-width: 1px;
     border-color: black;
     border-style: solid;
@@ -48,11 +50,11 @@ img.visible {
 
 
 .columna .etiqueta {
-    margin-top: 1em;
     border-width: 1px;
     border-color: black;
     border-style: solid;
 
+    margin-top: 1em;
     height: 40px;
 
     text-align: center;
@@ -60,9 +62,4 @@ img.visible {
 
     font-size: x-large;
     font-weight: bolder;
-}
-
-input {
-    font-size: 100px;
-    width: 70px;
 }
