@@ -34,32 +34,24 @@ img.visible {
     float: left;
 }
 
-.columna .numero {    
-    border-width: 1px;
-    border-color: black;
-    border-style: solid;
-  
-    height: 300px;
-    padding-top: 200px;
-
-    text-align: center;
-    vertical-align: bottom;
-
-    font-size: x-large;
-}
-
-
-.columna .etiqueta {
+.columna div {
     border-width: 1px;
     border-color: black;
     border-style: solid;
 
-    margin-top: 1em;
-    height: 40px;
-
     text-align: center;
-    vertical-align: middle;
-
     font-size: x-large;
     font-weight: bolder;
+}
+
+.columna .numero {    
+    padding-top: 200px;
+    height: 300px;
+}
+
+.columna .etiqueta {
+    margin-top: 1em;
+    padding-top: 1em;
+    padding-bottom : 0.5em;
+    height: 40px;
 }
